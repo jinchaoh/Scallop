@@ -3,6 +3,8 @@ os:linux
 compiler:g++
     
 sudo:required
+
+dist: trusty
 notifications:
   on_success: change
   on_failure: always
