@@ -1,0 +1,2 @@
+/home/hankin/scallop/Scallop/cmake/lib/CMakeFiles/libcjson.dir
+/home/hankin/scallop/Scallop/cmake/CMakeFiles/scallop.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../json/cJSON.h
+
+/home/hankin/scallop/Scallop/scallop.cpp
+iostream
+-
+cJSON.h
+/home/hankin/scallop/Scallop/cJSON.h
+

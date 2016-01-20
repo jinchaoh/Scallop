@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Scallop
+CMAKE_PROJECT_NAME:STATIC=SCALLOP
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -156,13 +156,13 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Scallop_BINARY_DIR:STATIC=/home/hankin/scallop/Scallop/cmake
+SCALLOP_BINARY_DIR:STATIC=/home/hankin/scallop/Scallop/cmake
 
 //Value Computed by CMake
-Scallop_SOURCE_DIR:STATIC=/home/hankin/scallop/Scallop
+SCALLOP_SOURCE_DIR:STATIC=/home/hankin/scallop/Scallop
 
 //Dependencies for target
-cJson_LIB_DEPENDS:STATIC=
+libcjson_LIB_DEPENDS:STATIC=
 
 
 ########################

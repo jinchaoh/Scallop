@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/scallop.dir/scallop.cpp.o  -o ../bin/scallop  -L/home/hankin/scallop/Scallop/lib -rdynamic ../lib/libcjson.a -Wl,-rpath,/home/hankin/scallop/Scallop/lib 
