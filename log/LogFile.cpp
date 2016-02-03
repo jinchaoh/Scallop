@@ -30,24 +30,18 @@ LogFile::LogFile(const string logBaseName,
 {
 	setDate();
 	setLogFullPath();
-	cout<<"logfile"<<endl;
 }
 
 void LogFile::setDate()
 {
-	
-	cout<<"setdate"<<endl;
 	char date_[80];
 	memset(date_,0,sizeof(date_));
 	time_t now;
 	time(&now);
 	struct tm *timelt;
 	timelt = localtime(&now);	
-	cout<<"setdate"<<endl;
 	strftime(date_, 24, "%Y%m%d", timelt);
-	cout<<"setdate"<<endl;
 	date = date_;
-	cout<<"setdate"<<endl;
 }
 void LogFile::setLogFullPath()
 {
@@ -55,11 +49,9 @@ void LogFile::setLogFullPath()
 	logFullPath +=  logFileName;
 	logFullPath += date;
 	logFullPath += ".log";				
-	cout<<"setlogfullpath"<<endl;
 }
 
 string LogFile::LogFile::getlogFullPath()
 {
-	cout<<"getlogfullpath"<<endl;
 	return logFullPath;
 }
