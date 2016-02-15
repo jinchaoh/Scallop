@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hankin/scallop/Scallop/log/LogFile.hpp
+iostream
+-
+string
+-
+
+/home/hankin/scallop/Scallop/log/Logger.cpp
+LogFile.hpp
+/home/hankin/scallop/Scallop/log/LogFile.hpp
+Logger.hpp
+/home/hankin/scallop/Scallop/log/Logger.hpp
+
+/home/hankin/scallop/Scallop/log/Logger.hpp
+pthread.h
+-
+iostream
+-
+string
+-
+stdio.h
+-
+stdarg.h
+-
+

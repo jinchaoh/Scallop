@@ -1,4 +1,5 @@
 #include "LogFile.hpp"
+#include "Logger.hpp"
 #include <iostream>
 
 using namespace Scallop;

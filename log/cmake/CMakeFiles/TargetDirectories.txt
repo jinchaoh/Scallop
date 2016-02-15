@@ -1,0 +1,1 @@
+/home/hankin/scallop/Scallop/log/cmake/CMakeFiles/logtest.dir
