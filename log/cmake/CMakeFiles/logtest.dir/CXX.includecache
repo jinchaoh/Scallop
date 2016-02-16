@@ -12,11 +12,7 @@ iostream
 string
 -
 
-/home/hankin/scallop/Scallop/log/Logger.cpp
-LogFile.hpp
-/home/hankin/scallop/Scallop/log/LogFile.hpp
-Logger.hpp
-/home/hankin/scallop/Scallop/log/Logger.hpp
+/home/hankin/scallop/Scallop/log/Logdef.hpp
 
 /home/hankin/scallop/Scallop/log/Logger.hpp
 pthread.h
@@ -28,5 +24,15 @@ string
 stdio.h
 -
 stdarg.h
+-
+
+/home/hankin/scallop/Scallop/log/main.cpp
+LogFile.hpp
+/home/hankin/scallop/Scallop/log/LogFile.hpp
+Logger.hpp
+/home/hankin/scallop/Scallop/log/Logger.hpp
+Logdef.hpp
+/home/hankin/scallop/Scallop/log/Logdef.hpp
+iostream
 -
 

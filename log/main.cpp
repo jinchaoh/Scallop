@@ -7,7 +7,11 @@ using namespace Scallop;
 using namespace std;
 int main()
 {
-	ERROR("%s====[%d]\n","this is my test ","error log");
-	ERROR("%s","haoexin");
+	long i = 99999999999;
+	while(i--)
+	{
+		ERROR("%s====[%d]\n","this is my test ","error log");
+		ERROR("%s","haoexin");	
+	}
 	return 0;
 } 
