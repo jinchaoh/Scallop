@@ -49,6 +49,7 @@ bool Logger::printLog(const char* file_name, int line,
 	fprintf(logFile, "[%s:%d] ", file_name, line);
 	fprintf(logFile, "[%s()]: ", func);
 	
+
 	va_list ap;
 	va_start(ap, fmt);
 	vfprintf(logFile, fmt, ap);
@@ -66,12 +67,14 @@ bool Logger::printLog(const char* file_name, int line,
 bool Logger::openLogFile()
 {	
 	logPath = m_LogFile.getlogFullPath();
+	//dcout<<logPath.c_str()<<endl;
 	logFile = fopen(logPath.c_str(), "ab+");
 	if (logFile == NULL)
 	{
-		printf("open false!\n");
 		return false;
 	}
+
+	return true;
 }
 
 void Logger::get_year_month_day(string& res)

@@ -9,7 +9,7 @@ using namespace Scallop;
 
 LogFile::LogFile()
 	:	logFileName("log"),
-		logPath("~/log/")
+		logPath("/home/hankin/log/")
 { 
 	setDate();
 	setLogFullPath();
@@ -17,7 +17,7 @@ LogFile::LogFile()
 
 LogFile::LogFile(const string logBaseName)
 	:	logFileName(logBaseName),
-		logPath("~/log/")
+		logPath("/home/hankin/log/")
 {
 	setDate();
 	setLogFullPath();
@@ -43,6 +43,7 @@ void LogFile::setDate()
 	strftime(date_, 24, "%Y%m%d", timelt);
 	date = date_;
 }
+
 void LogFile::setLogFullPath()
 {
 	logFullPath = logPath;
@@ -54,4 +55,9 @@ void LogFile::setLogFullPath()
 string LogFile::LogFile::getlogFullPath()
 {
 	return logFullPath;
+}
+
+LogFile::~LogFile()
+{
+	
 }

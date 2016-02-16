@@ -9,6 +9,7 @@ CMakeFiles/logtest.dir/Logger.cpp.o: ../Logger.cpp
 CMakeFiles/logtest.dir/Logger.cpp.o: ../Logger.hpp
 
 CMakeFiles/logtest.dir/main.cpp.o: ../LogFile.hpp
+CMakeFiles/logtest.dir/main.cpp.o: ../Logdef.hpp
 CMakeFiles/logtest.dir/main.cpp.o: ../Logger.hpp
 CMakeFiles/logtest.dir/main.cpp.o: ../main.cpp
 

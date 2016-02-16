@@ -10,5 +10,6 @@ CMakeFiles/logtest.dir/Logger.cpp.o
  /home/hankin/scallop/Scallop/log/Logger.hpp
 CMakeFiles/logtest.dir/main.cpp.o
  /home/hankin/scallop/Scallop/log/LogFile.hpp
+ /home/hankin/scallop/Scallop/log/Logdef.hpp
  /home/hankin/scallop/Scallop/log/Logger.hpp
  /home/hankin/scallop/Scallop/log/main.cpp
